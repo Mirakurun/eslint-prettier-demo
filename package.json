@@ -1,0 +1,30 @@
+{
+  "name": "eslint-prettier-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mirakurun/eslint-prettier-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mirakurun/eslint-prettier-demo/issues"
+  },
+  "homepage": "https://github.com/Mirakurun/eslint-prettier-demo#readme",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "2.4.1"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
