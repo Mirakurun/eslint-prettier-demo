@@ -1,6 +1,11 @@
 exports.handler = async (event) => {
   let data = 1;
   const data2 =              2
+  const data3 = {
+    a: 1,
+    b: 2,
+    c: 3
+  }
 
   data = 2;
   data.a.b = 3;
